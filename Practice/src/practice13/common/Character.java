@@ -35,7 +35,7 @@ public class Character {
 		this.power = power;
 		this.endurance = endurance;
 	}
-
+ 
 	/**
 	 * 名前を設定します
 	 * @param name	設定したい名前
@@ -75,6 +75,7 @@ public class Character {
 
 		// ダメージ分体力を減らす
 		this.hp -= calc;
+		System.out.println(this.name + ":" + this.hp);
 
 		// 体力がなくなったかどうかの判定
 		if (this.hp <= 0) {
@@ -103,3 +104,9 @@ public class Character {
 		return str.toString();
 	}
 }
+
+//public Hero(int hp, int power, int endurance) {
+//	super(hp, power, endurance);
+//	
+//}
+//
