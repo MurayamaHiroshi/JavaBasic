@@ -8,6 +8,8 @@ package practice13.ptra13;
 
 public class PTra13_05 {
 
+
+
 	/*
 	 * ★ common.Itemクラスを作成してください
 	 *

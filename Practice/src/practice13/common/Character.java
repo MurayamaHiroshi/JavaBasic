@@ -35,7 +35,7 @@ public class Character {
 		this.power = power;
 		this.endurance = endurance;
 	}
- 
+
 	/**
 	 * 名前を設定します
 	 * @param name	設定したい名前
@@ -107,6 +107,6 @@ public class Character {
 
 //public Hero(int hp, int power, int endurance) {
 //	super(hp, power, endurance);
-//	
+//
 //}
 //
