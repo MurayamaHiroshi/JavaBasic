@@ -6,11 +6,11 @@
  */
 package practice13.ptra13;
 
-import practice13.common.SuperHero;
+
 
 public class PTra13_06 {
 
-	SuperHero superHero = new SuperHero();
+
 
 	/*
 	 * ★ common.Heroクラスを継承した、common.SuperHeroクラスを作成してください
