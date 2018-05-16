@@ -13,11 +13,15 @@ public class PTra15_02 {
 	public static void main(String[] args) {
 
 		Room room = new Java2Month();
+		Java2Month j2m = (Java2Month)room;
 
 		// roomに格納されたJava2MonthインスタンスのgetCurriculumメソッドを呼び出してください
-
+		String[] c = j2m.getCurriculum();
 
 		// 取得したカリキュラム情報を全て出力してください
+		for(String a:c) {
+			System.out.println(a);
+		}
 
 	}
 }
