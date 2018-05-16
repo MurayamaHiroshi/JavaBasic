@@ -56,6 +56,7 @@ public class PTra13_09 {
 
 		employee[i].setDepartmentCnt(Integer.parseInt(QUATERDATA[1][i]));
 		System.out.println(employee[i].getDepartmentCnt());
+		System.out.println();
 		}
 	}
 }
