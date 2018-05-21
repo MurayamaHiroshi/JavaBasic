@@ -20,8 +20,26 @@ public class PTra16_02 {
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 		Boolean bb = b;
+		Byte byby = by;
+		Short ss =s;
+		Character cc = c;
 		Integer ii = i;
-
-
+		Long ll = l;
+		Float FF = f;
+		Double DD = d;
 	}
 }
+//byte
+//java.lang.Byte
+//short
+//java.lang.Short
+//int
+//java.lang.Integer
+//float
+//java.lang.Float
+//double
+//java.lang.Double
+//char
+//java.lang.Character
+//boolean
+//java.lang.Boolean

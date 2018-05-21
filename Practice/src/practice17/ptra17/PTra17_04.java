@@ -16,5 +16,8 @@ public class PTra17_04 {
 		 * ※ Thread.sleep を使用すること
 		 */
 
+
 	}
 }
+？？？
+//前回行ってたpracticeの同じプログラムをコピペしてやればできる。
