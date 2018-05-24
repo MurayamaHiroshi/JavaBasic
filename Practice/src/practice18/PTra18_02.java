@@ -63,8 +63,8 @@ public class PTra18_02 {
 
 		// ★ ArrayListに格納されているインスタンス全てのtoStringメソッドを実行し、出力してください
 		// ※ できれば拡張for文を使いましょう
-        for(Player a:array){
-        	System.out.println(a.toString());
+        for(Player player:array){
+        	System.out.println(player.toString());
         }
 	}
 }

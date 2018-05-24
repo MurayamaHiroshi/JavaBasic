@@ -53,16 +53,16 @@ public class PTra18_03 {
 		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
 	        Iterator<Player> i = array.iterator();
 	        while(i.hasNext()){
-	            Player a = i.next();
-	            if(a.getTeam().equals("レアル・マドリード")||a.getTeam().equals("バルセロナ")){
+	            Player player = i.next();
+	            if(player.getTeam().equals("レアル・マドリード")||player.getTeam().equals("バルセロナ")){
 	                i.remove();
 	            }
 	        }
 
 		// ★ 削除後のArrayListの中身を全件出力してくださ
 
-	        for(Player toString : array) {
-           	 System.out.println(toString);
+	        for(Player player : array) {
+           	 System.out.println(player);
            }
 	}
 }
